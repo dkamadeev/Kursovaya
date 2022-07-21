@@ -1,0 +1,20 @@
+16:44:34 - Kurs - main - DEBUG - new_logger: 31 - Logger initiated
+16:44:34 - Kurs.main - main - INFO - <module>: 214 - Starting program
+16:44:53 - Kurs.main - main - DEBUG - get_photos: 141 - Downloading 3 photos from user_id 1
+16:44:54 - Kurs.main - main - DEBUG - get_photos: 168 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+16:44:54 - Kurs.main - main - DEBUG - create_folder: 67 - Creating folder at YaDisk
+16:45:07 - Kurs.main - main - DEBUG - upload_file: 92 - Uploading file 721093.jpg to YaDisk
+16:48:33 - Kurs - main - DEBUG - new_logger: 31 - Logger initiated
+16:48:33 - Kurs.main - main - INFO - <module>: 214 - Starting program
+16:48:39 - Kurs.main - main - DEBUG - get_photos: 141 - Downloading 3 photos from user_id 1
+16:48:39 - Kurs.main - main - DEBUG - get_photos: 168 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+16:48:39 - Kurs.main - main - DEBUG - create_folder: 67 - Creating folder at YaDisk
+16:48:50 - Kurs.main - main - DEBUG - upload_file: 92 - Uploading file 721093.jpg to YaDisk
+16:48:50 - Kurs.main - main - DEBUG - upload_file: 92 - Uploading file 978498.jpg to YaDisk
+16:48:51 - Kurs.main - main - DEBUG - upload_file: 92 - Uploading file 873544.jpg to YaDisk
+16:48:51 - Kurs.main - main - INFO - <module>: 216 - Closing program
+16:49:17 - Kurs - main - DEBUG - new_logger: 31 - Logger initiated
+16:49:17 - Kurs.main - main - INFO - <module>: 214 - Starting program
+16:49:27 - Kurs.main - main - DEBUG - get_photos: 141 - Downloading ewr photos from user_id 1
+16:49:27 - Kurs.main - main - ERROR - find_error: 38 - Error code - 100, error message - One of the parameters specified was missing or invalid: count not integer
+16:49:27 - Kurs.main - main - INFO - find_error: 39 - Closing program
