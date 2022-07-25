@@ -18,3 +18,92 @@
 16:49:27 - Kurs.main - main - DEBUG - get_photos: 141 - Downloading ewr photos from user_id 1
 16:49:27 - Kurs.main - main - ERROR - find_error: 38 - Error code - 100, error message - One of the parameters specified was missing or invalid: count not integer
 16:49:27 - Kurs.main - main - INFO - find_error: 39 - Closing program
+10:44:36 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+10:44:36 - Kurs.main - main - INFO - <module>: 213 - Starting program
+10:44:55 - Kurs.main - main - DEBUG - get_photos: 140 - Downloading 3 photos from user_id 2768880
+10:44:55 - Kurs.main - main - DEBUG - get_photos: 167 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+10:44:55 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+10:45:01 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 0.jpg to YaDisk
+10:45:28 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+10:45:28 - Kurs.main - main - INFO - <module>: 213 - Starting program
+10:45:35 - Kurs.main - main - DEBUG - get_photos: 140 - Downloading 3 photos from user_id 2768880
+10:45:35 - Kurs.main - main - DEBUG - get_photos: 167 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+10:45:35 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+10:45:40 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 0.jpg to YaDisk
+10:45:40 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 0_1292449757_2.jpg to YaDisk
+10:45:41 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 0_1291312389_3.jpg to YaDisk
+10:45:42 - Kurs.main - main - INFO - <module>: 215 - Closing program
+10:48:20 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+10:48:20 - Kurs.main - main - INFO - <module>: 213 - Starting program
+10:48:28 - Kurs.main - main - DEBUG - get_photos: 140 - Downloading 1 photos from user_id 1
+10:48:28 - Kurs.main - main - DEBUG - get_photos: 167 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+10:48:28 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+10:48:30 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 721095.jpg to YaDisk
+10:51:32 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+10:51:32 - Kurs.main - main - INFO - <module>: 214 - Starting program
+10:51:37 - Kurs.main - main - DEBUG - get_photos: 141 - Downloading 1 photos from user_id 1
+10:51:38 - Kurs.main - main - DEBUG - get_photos: 168 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+10:51:38 - Kurs.main - main - DEBUG - create_folder: 67 - Creating folder at YaDisk
+10:51:40 - Kurs.main - main - DEBUG - upload_file: 92 - Uploading file 721095.jpg to YaDisk
+11:00:46 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+11:00:46 - Kurs.main - main - INFO - <module>: 213 - Starting program
+11:00:53 - Kurs.main - main - DEBUG - get_photos: 140 - Downloading 1 photos from user_id 1
+11:00:53 - Kurs.main - main - DEBUG - get_photos: 167 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+11:00:53 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+11:00:57 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 721095.jpg to YaDisk
+11:00:57 - Kurs.main - main - ERROR - find_error: 41 - Error code - DiskPathDoesntExistsError, error message - ”казанного пути "None/721095.jpg" не существует.
+Traceback (most recent call last):
+  File "C:\Users\kamadeev\Pictures\Hometask Python\Kurs\main.py", line 37, in find_error
+    logger.error(f'Error code - {some_dict["error"]["error_code"]}, error message - {some_dict["error"]["error_msg"]}')
+TypeError: string indices must be integers
+11:00:57 - Kurs.main - main - INFO - find_error: 42 - Closing program
+11:03:38 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+11:03:38 - Kurs.main - main - INFO - <module>: 213 - Starting program
+11:03:47 - Kurs.main - main - DEBUG - get_photos: 140 - Downloading 1 photos from user_id 1
+11:03:47 - Kurs.main - main - DEBUG - get_photos: 167 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+11:03:47 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+11:03:50 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 721095.jpg to YaDisk
+11:03:50 - Kurs.main - main - ERROR - find_error: 41 - Error code - DiskPathDoesntExistsError, error message - ”казанного пути "None/721095.jpg" не существует.
+Traceback (most recent call last):
+  File "C:\Users\kamadeev\Pictures\Hometask Python\Kurs\main.py", line 37, in find_error
+    logger.error(f'Error code - {some_dict["error"]["error_code"]}, error message - {some_dict["error"]["error_msg"]}')
+TypeError: string indices must be integers
+11:03:50 - Kurs.main - main - INFO - find_error: 42 - Closing program
+11:04:58 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+11:04:58 - Kurs.main - main - INFO - <module>: 214 - Starting program
+11:05:04 - Kurs.main - main - DEBUG - get_photos: 140 - Downloading 2 photos from user_id 1
+11:05:04 - Kurs.main - main - DEBUG - get_photos: 167 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+11:05:04 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+11:05:08 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 721095.jpg to YaDisk
+11:05:08 - Kurs.main - main - ERROR - find_error: 41 - Error code - DiskPathDoesntExistsError, error message - ”казанного пути "None/721095.jpg" не существует.
+Traceback (most recent call last):
+  File "C:\Users\kamadeev\Pictures\Hometask Python\Kurs\main.py", line 37, in find_error
+    logger.error(f'Error code - {some_dict["error"]["error_code"]}, error message - {some_dict["error"]["error_msg"]}')
+TypeError: string indices must be integers
+11:05:08 - Kurs.main - main - INFO - find_error: 42 - Closing program
+11:05:40 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+11:05:40 - Kurs.main - main - INFO - <module>: 215 - Starting program
+11:05:46 - Kurs.main - main - DEBUG - get_photos: 140 - Downloading 1 photos from user_id 1
+11:05:46 - Kurs.main - main - DEBUG - get_photos: 167 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+11:05:46 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+11:05:50 - Kurs.main - main - DEBUG - upload_file: 91 - Uploading file 721095.jpg to YaDisk
+11:05:51 - Kurs.main - main - ERROR - find_error: 41 - Error code - DiskPathDoesntExistsError, error message - ”казанного пути "None/721095.jpg" не существует.
+Traceback (most recent call last):
+  File "C:\Users\kamadeev\Pictures\Hometask Python\Kurs\main.py", line 37, in find_error
+    logger.error(f'Error code - {some_dict["error"]["error_code"]}, error message - {some_dict["error"]["error_msg"]}')
+TypeError: string indices must be integers
+11:05:51 - Kurs.main - main - INFO - find_error: 42 - Closing program
+11:07:40 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+11:07:40 - Kurs.main - main - INFO - <module>: 217 - Starting program
+11:07:45 - Kurs.main - main - DEBUG - get_photos: 142 - Downloading 1 photos from user_id 1
+11:07:45 - Kurs.main - main - DEBUG - get_photos: 169 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+11:07:45 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+11:07:50 - Kurs.main - main - DEBUG - upload_file: 93 - Uploading file 721095.jpg to YaDisk
+11:07:51 - Kurs.main - main - INFO - <module>: 219 - Closing program
+11:08:16 - Kurs - main - DEBUG - new_logger: 30 - Logger initiated
+11:08:16 - Kurs.main - main - INFO - <module>: 217 - Starting program
+11:08:22 - Kurs.main - main - DEBUG - get_photos: 142 - Downloading 1 photos from user_id 1
+11:08:22 - Kurs.main - main - DEBUG - get_photos: 169 - writing list of photos in the file <_io.TextIOWrapper name='Resultsfile.json' mode='w' encoding='UTF-8'>
+11:08:22 - Kurs.main - main - DEBUG - create_folder: 66 - Creating folder at YaDisk
+11:08:30 - Kurs.main - main - DEBUG - upload_file: 93 - Uploading file 721095.jpg to YaDisk
+11:08:30 - Kurs.main - main - INFO - <module>: 219 - Closing program

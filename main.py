@@ -38,7 +38,7 @@ def find_error(some_dict):
            logger.info('Closing program')
            sys.exit()
     except Exception as ex:
-        logger.exception(f'Error code - {some_dict["error"]["error_code"]}, error message - {ex}')
+        logger.exception(f'Error code - {some_dict["error"]}, error message - {some_dict["message"]}')
         logger.info('Closing program')
         sys.exit()
 
@@ -75,6 +75,8 @@ class YAdisk:
                 return self.create_folder()
             elif x == '1':
                 return folder_name
+        else:
+            return folder_name
 
 
 # get_upload_yalink(self, file_path):
